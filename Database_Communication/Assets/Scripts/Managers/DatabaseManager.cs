@@ -12,7 +12,7 @@ public class DatabaseManager : SingletonBehaviour<DatabaseManager>
     private static string URL_Update { get { return serverPath + "UpdateEntry.php?"; } }
     private static string URL_Delete { get { return serverPath + "DeleteEntry.php?"; } }
 
-    private string clientKey = "mySecretKey";
+    private string clientKey = "Key";
 
     public delegate void UserCallback(List<DatabaseEntry> _users);
 
